@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* sort 开始 */
+.sort {
+  background-color: #eee;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.sort a {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #666;
+}
+.sort a.current {
+  color: darkorange;
+}
+/* sort 结束 */
+
+
+/* loading 开始 */
+.loading {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #069;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+  animation: play 1s infinite;
+}
+
+@keyframes play {
+  from{
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to{
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+/* loading 结束 */

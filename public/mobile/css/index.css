@@ -1,0 +1,19 @@
+
+/* nav 开始 */
+.nav {
+  padding: 10px;
+}
+.nav li {
+  float: left;
+  width: 33.3%;
+}
+.nav li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* nav 结束 */
+
+
+
